@@ -32,3 +32,23 @@ app.get('/bad',function(req,res){
     });
 });
 app.listen(port);
+
+//var sentimentAnalysis = require('sentiment-analysis');
+// 
+//var a=sentimentAnalysis('I am joyful and joyfully');
+//console.log(a);
+
+//var express= require('express');
+// 
+//var app =express();
+//
+//app.get('/',(req,res)=>{
+//    //res.send('Hello express');
+//    res.send({
+//        name: 'Andrew',
+//        list: ['apple','coco']
+//    });
+//});
+//app.listen(3000,()=>{
+//    console.log('server is up on port 3000');
+//});
